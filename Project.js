@@ -28,7 +28,7 @@ function mintNFT(_name, _rarity, _damage, _specialAbility) {
 // create a "loop" that will go through an "NFTsay" of NFT's
 // and print their metadata with console.log()
 function listNFTs() {
-    console.log("Minted NFTs:");
+    console.log("\nMinted NFTs:");
     for (let i = 0; i < myNFTs.length; i++) {
         console.log("\nName: " + myNFTs[i].name);
         console.log("Rarity: " + myNFTs[i].rarity);
